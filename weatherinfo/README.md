@@ -76,4 +76,17 @@ React Developer Tools
 
 4.[ ] EXTRA 2: En la primera carga de datos de esta vista, reemplazar Madrid por la geolocalización actual del usuario.
 
- 
+ -------
+
+Small Steps
+
+[ ] Crear componentes
+[ ] Montar componentes ( que se pinten vacíos)
+[ ] Meter contenido a componenttes input+botón
+[ ] Probar API
+    Obtener API Key: edcc4e9a432c54888d2969d9cfcde954
+    Elegir el EndPoint de lla Docu:
+      api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
+
+      http://api.openweathermap.org/geo/1.0/direct?q={city name}&appid={8471f28138d01369ae868accc42acc24}
+      
