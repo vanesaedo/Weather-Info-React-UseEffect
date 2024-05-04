@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css'
 import './WeatherCard.css'
 import WeatherList from './WeatherList'
-import WeatherForm from './WeatherForm';
+import MainComponent from './MainComponent';
 
 function App() {
   
 
   return (
     <>
-      <WeatherForm/>
+      <MainComponent/>
       <WeatherList/>
     </>
   )
