@@ -1,16 +1,20 @@
 import React from 'react';
-import './App.css'
-import './WeatherCard.css'
-import WeatherList from './WeatherList'
-import MainComponent from './MainComponent';
+import Header from './components/Header/Header';
+import ListForecast from './components/MainComponent/ListForecast/ListForecast';
+import ForecastMain from './components/MainComponent/ForecastMain/ForecastMain';
+import Footer from './components/Footer/Footer'
+import CardForecast from './components/MainComponent/CardForecast/CardForecast';
+
 
 function App() {
   
 
   return (
     <>
-      <MainComponent/>
-      <WeatherList/>
+      <Header/>
+      <ForecastMain/>
+      <ListForecast/>
+      <Footer/>
     </>
   )
 }

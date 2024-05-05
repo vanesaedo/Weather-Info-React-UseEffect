@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const FormInputCity = ({ setCity }) => {
+
     const [inputValue, setInputValue] = useState('');
   
     const handleChange = (event) => {
@@ -8,7 +9,7 @@ const FormInputCity = ({ setCity }) => {
     };
   
     const handleClick = () => {
-      setCity(inputValue); // Pasamos el mensaje al componente hermano a través de la función setMessage
+      setCity(inputValue); // Pasamos el mensaje al componente hermano a través de la función setCity
     };
   
     return (
